@@ -8,7 +8,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.*;
 
-public class Assignment3 {
+public class EnronSearch {
     public static WeightedGraph.Graph enronEmails = new WeightedGraph.Graph();
     public static PrintWriter connectorOutput;
     public static int[] dfsNums;
