@@ -3,6 +3,8 @@
 
 This is a Java program that processes email data from a given directory and its subdirectories, builds a weighted graph based on the connections between email senders and receivers, and prints the connectors in the graph.
 
+The dataset can be found at [here](https://www.cs.cmu.edu/~enron/).
+
 ## Overview
 
 The program consists of several classes and methods that perform the following tasks:
@@ -17,13 +19,13 @@ The program consists of several classes and methods that perform the following t
 1. Compile the Java program:
 
 ```
-javac Assignment3.java
+javac EmronSearch.java
 ```
 
 2. Run the program with the directory containing the email folders as an argument:
 
 ```
-java Assignment3 /path/to/email/folders
+java EnronSearch /path/to/email/dataset
 ```
 
 3. The program will generate a `connectors.txt` file containing the list of connectors found in the graph.
